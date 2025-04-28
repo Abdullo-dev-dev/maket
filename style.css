@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Rubik", "Times New Roman";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f9faff;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+}
+
+ul li a {
+  font-size: 18px;
+  color: #363853;
+}
+
+.menuButton ul li a:hover {
+  color: #ff6838;
+}
+
+.mainBtn {
+  padding: 16px 32px;
+  background-color: #ff6838;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: #ff6838 0px 1px 30px;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serviceTitleBox {
+  width: 530px;
+}
+
+.serviceTitleBox h1 {
+  font-size: 66px;
+  margin-bottom: 23px;
+}
+
+.serviceTitleBox span {
+  color: #ff6838;
+}
+
+.serviceTitleBox p {
+  font-size: 20px;
+  margin-bottom: 45px;
+  color: #363853;
+}
+
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 124px;
+}
+
+
+.aboutTitleBox {
+  width: 449px;
+}
+
+.aboutTitleBox h2 {
+  font-size: 36px;
+  margin-bottom: 95px;
+}
+
+.aboutTitleBox span {
+  color: #ff6838;
+}
+
+.aboutTitleBox p {
+  font-size: 20px;
+  margin-bottom: 141px;
+  color: #363853;
+}
+
+.aboutTitleBox button {
+  padding: 16px 32px;
+  background-color: #ff6838;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius:30px;
+  border-bottom-right-radius: 1px;
+  box-shadow: #ff6838 0px 1px 30px;
+}
+
+.menu p{
+  margin-top: 44px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.menu p span{
+  color: #ff6838;
+}
+
+.menuAll{
+  display: flex;
+  align-items: center;
+  gap: 43px;
+  justify-content: center;
+}
+
+
+.One .onep{
+  font-size: 24px;
+  color: #363853;
+  margin: 22px 20px;
+}
+
+
+.Two .twop{
+  font-size: 24px;
+  color: #363853;
+  margin: 22px 20px;
+}
+
+.Three .threep{
+  font-size: 24px;
+  color: #363853;
+  margin: 22px 20px;
+}
+
+
+.soatlar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+
+.soatlar p{
+  font-size: 24px;
+  color: #363853;
+}
+
+
+.soatlar i{
+  width: 19px;
+  height: 20px;
+}
+
+
+.soatlar button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  width: 79px;
+  height: 33px;
+  background-color: #FF7A50;
+  border: none;
+  border-radius: 20px;
+  border-bottom-right-radius: 1px;
+  color: white;
+}
